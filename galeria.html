@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Ramos entregados — Detalles Michu</title>
+<meta name="description" content="Una muestra de ramos hechos a mano para nuestros clientes.">
+<meta name="theme-color" content="#FFF7F9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Karla:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/logo.png">
+<link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><img src="img/logo.png" alt="Detalles Michu — Ameli González" class="brand-logo"></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="personaliza.html">Personaliza</a></li>
+      <li><a href="galeria.html">Ramos entregados</a></li>
+      <li><a href="preguntas.html">Preguntas</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="personaliza.html" class="nav-cta">Personaliza tu ramo</a>
+      <button class="cart-btn" type="button" data-act="open-drawer" aria-label="Abrir carrito">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="cart-badge" id="cartBadge" hidden>0</span>
+      </button>
+      <button class="nav-toggle" type="button" data-act="menu" aria-label="Menú" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</nav>
+<main id="site">
+<header class="page-head">
+  <div class="wrap"><h1>Ramos entregados</h1><p class="lead">Una muestra de ramos reales hechos con cariño para nuestros clientes.</p></div>
+</header>
+<section id="galeria">
+  <div class="wrap"><div class="gallery-grid" id="galleryGrid"></div></div>
+</section>
+<section class="cta-band"><div class="wrap"><h2>¿Quieres el siguiente ramo de esta galería?</h2><p>Elige tus flores y nosotros las tejemos para ti.</p>
+  <div class="hero-actions"><a href="personaliza.html" class="btn btn-light">Personaliza tu ramo</a><a href="catalogo.html" class="btn btn-outline-light">Ver catálogo</a></div></div></section>
+</main>
+<section class="screen" id="screen" hidden></section>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-col foot-brand">
+      <div class="brand-foot"><img src="img/logo.png" alt="Detalles Michu — Ameli González" class="footer-logo">Detalles Michu</div>
+      <p>Detalles que florecen para siempre. Flores hechas a mano con listón y limpiapipas.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Síguenos</h4>
+      <div class="social">
+        <a href="https://www.facebook.com/share/1CAtvudsuW/" target="_blank" rel="noopener" aria-label="Facebook de Detalles Michu"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8.5H16l.4-3.5h-2.9V7.8c0-1 .3-1.7 1.8-1.7H16.5V3.1C16.1 3 15 2.9 13.8 2.9c-2.6 0-4.4 1.6-4.4 4.5v2.6H6.9v3.5h2.5V22h4.1z"/></svg><span>Facebook</span></a>
+        <a href="https://www.instagram.com/detalles.michu16" target="_blank" rel="noopener" aria-label="Instagram de Detalles Michu"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.5 2C4.5 2 2 4.5 2 7.5v9C2 19.5 4.5 22 7.5 22h9c3 0 5.5-2.5 5.5-5.5v-9C22 4.5 19.5 2 16.5 2h-9zm9.75 2.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg><span>@detalles.michu16</span></a>
+        <a href="https://wa.me/525547698638" target="_blank" rel="noopener" aria-label="WhatsApp de Detalles Michu"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.09-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.42-4.4-1.16l-.32-.18-3.02.79.8-2.94-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.02.4 1.38.51.58.18 1.1.16 1.52.1.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg><span>55 4769 8638</span></a>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h4>Zona de entrega</h4>
+      <p>Villa del Carbón y municipios cercanos del Estado de México, además de puntos de entrega acordados contigo. ¿Otra zona? Escríbenos y la cotizamos.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Horario de atención</h4>
+      <p>Lunes a sábado: 10:00 a 19:00<br>Domingo: solo con cita previa</p>
+      <p class="foot-links"><a href="privacidad.html">Políticas de privacidad</a></p>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">© <span id="year"></span> Detalles Michu · Detalles que florecen para siempre</div>
+</footer>
+
+<a class="float-wa" id="floatWa" href="https://wa.me/525547698638?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20flores." target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.09-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.42-4.4-1.16l-.32-.18-3.02.79.8-2.94-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.02.4 1.38.51.58.18 1.1.16 1.52.1.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg><span>Pedir por WhatsApp</span>
+</a>
+
+<!-- ============ TIENDA: modal de producto, carrito lateral, aviso ============ -->
+<div class="modal" id="pm" hidden role="dialog" aria-modal="true" aria-labelledby="pmTitle">
+  <div class="modal-card">
+    <button class="modal-x" type="button" data-act="pm-close" aria-label="Cerrar">×</button>
+    <div class="modal-media" id="pmMedia"></div>
+    <div class="modal-body">
+      <span class="pm-tag" id="pmTag"></span>
+      <h2 id="pmTitle"></h2>
+      <div class="pm-price" id="pmPrice"></div>
+      <p id="pmDesc"></p>
+      <dl class="specs" id="pmSpecs"></dl>
+      <div class="field"><label>Color: <strong id="pmColorName"></strong></label><div class="sw-row" id="pmSw"></div></div>
+      <p class="pm-note">La foto es de referencia: elige el color que quieras y lo tejemos para ti. Cuidado: límpiala con una brocha suave y evita la humedad.</p>
+      <div class="pm-buy">
+        <div class="qty-control">
+          <button type="button" class="qty-btn" data-act="pm-dec" aria-label="Reducir cantidad">−</button>
+          <span class="qty-value" id="pmQty">1</span>
+          <button type="button" class="qty-btn" data-act="pm-inc" aria-label="Aumentar cantidad">+</button>
+        </div>
+        <button class="btn btn-primary" data-act="pm-add" type="button">Agregar al carrito · <span id="pmAddTotal"></span></button>
+      </div>
+      <button class="link-btn" data-act="pm-ramo" type="button">o sumarla a mi ramo personalizado →</button>
+    </div>
+  </div>
+</div>
+<div class="scrim" id="scrim" hidden data-act="close-drawer"></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Carrito de compras">
+  <div class="drawer-head"><h3>Tu carrito</h3><button id="drawerClose" class="modal-x static" type="button" data-act="close-drawer" aria-label="Cerrar carrito">×</button></div>
+  <div class="drawer-body" id="drawerBody"></div>
+  <div class="drawer-foot" id="drawerFoot" hidden>
+    <div class="summary-row" style="border:none;padding:0"><span>Subtotal</span><strong id="drawerSub"></strong></div>
+    <p class="ship-note" id="drawerShip"></p>
+    <button class="btn btn-primary btn-block" data-act="checkout" type="button">Ir a pagar</button>
+    <button class="btn btn-secondary btn-block" data-act="cart" type="button" style="margin-top:10px">Ver carrito completo</button>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/app.js?v=4" defer></script>
+</body>
+</html>
