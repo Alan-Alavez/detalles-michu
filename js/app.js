@@ -4,7 +4,7 @@
 
 // --- Número de WhatsApp del negocio -------------------------------------
 // VARIABLE A REEMPLAZAR: usa formato internacional sin signos, ej. "5215512345678"
-const WHATSAPP_NUMBER = "525547698638"; // WhatsApp: 55 4769 8638
+const WHATSAPP_NUMBER = ""; // vacío = WhatsApp deja elegir a quién enviar el mensaje (demo)
 
 // --- Fotografías (salen de tu catálogo en PDF) --------------------------
 // >>> CARPETA DE LAS FOTOS DEL CATÁLOGO: si la moviste, cambia SOLO esta línea (debe terminar con "/")
